@@ -1,15 +1,15 @@
 //   Primitive
 
 //7 Datatypes : String, Number, Boolearn, Null, Undefined, Symbol, BigInt
+            
+//const id = Symbol('123')
+//const anotherId = Symbol('123')
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+//console.log(id===anotherId);
 
-console.log(id===anotherId);
+//const bigNumber = 910114734899087n
 
-const bigNumber = 910114734899087n
-
-console.log(bigNumber);
+//console.log(bigNumber);
 
 
 
@@ -17,30 +17,29 @@ console.log(bigNumber);
 
 // Array, Objects, Functions
 
-const heroes = ["Harry Potter", "Katniss", "Doraemon"]
+//const heroes = ["Harry Potter", "Katniss", "Doraemon"]
 
-console.log(heroes);
+//console.log(heroes);
 
 
 // arrays are written in square brackets
 
-let myObj = {
+//let myObj = {
 
     name:"Farhin",
     age:19,
 
 }
 
-console.log(myObj);
+//console.log(myObj);
 
 
 // objects are written between curly brackets
 
 
-const MyFunction = function (){
-
-    console.log("Hello Baby");
-    
-}
+const myFunction = function () {
+    console.log("Hello,world");
+};
+myFunction();
 
 
